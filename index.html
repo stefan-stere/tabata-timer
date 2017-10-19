@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Tabata</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="lib/tau/wearable/js/other.js"></script>
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Tabata</h2>
+		</header>
+		<div class="ui-content content-padding" >
+			<table>
+				<tr>
+					<td><label onclick="setElement(document.getElementById('wk-in'));">Workout</label></td>
+					<td><input type="number" id="wk-in" onclick="setElement(document.getElementById('wk-in'));" value="0" readonly></td>
+					<td>(s)</td>
+				</tr>
+				<tr>
+					<td><label onclick="setElement(document.getElementById('pa-in'));">Pause</label></td>
+					<td><input type="number" id="pa-in" onclick="setElement(document.getElementById('pa-in'));" value="0" readonly></td>
+					<td>(s)</td>
+				</tr>
+				<tr>
+					<td><label onclick="setElement(document.getElementById('cc-in'));">Cicles</label></td>
+					<td><input type="number" id="cc-in" onclick="setElement(document.getElementById('cc-in'));" value="0" readonly></td>
+					<td> </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>	
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>
+</body>
+</html>
