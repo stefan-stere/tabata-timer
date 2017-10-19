@@ -2,21 +2,25 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="README.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oIOfeqvvUvvbYfi+VbWYuJ8OLjhWlRcFDtkQQHYgy/Y=</DigestValue>
+</Reference>
 <Reference URI="app.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>6Sm6ZkoqwlnVFxbFM/jOG+ow9AeHgbzCh/nC4J96mr0=</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>6yUP9l3JwNTuKGF6kEroTKLSZCWl3ztGKewlaeAsjCM=</DigestValue>
+<DigestValue>rIHMMivPtE+aYy4ROYQwYgW9xbOUJO4ZvnwaSuktEgQ=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>2yQak/IUDJpVLSSJDsNByesBjAf+Kx01TOfpz4Woz+Y=</DigestValue>
+<DigestValue>TzfM1Cono7iKRwdDW9K+mUZ9w/4sjuS7O9DdbendcMs=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>4upsCs0UAFjd0LoU1pEke21qDYXf0vDE3NOMnuETG3c=</DigestValue>
+<DigestValue>LuhkL1fZCpVLuHtRVCTnpnAq6qHh9qHO0VqoZJF1KB0=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,7 +28,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vIpbNxge74aFZeZvO/wkEQu5qlQfc8suCfwfl1XM1Sc=</DigestValue>
+<DigestValue>PAqa1XxTr25WGmOBAFIZ9Mo4Sx0MUvsK/36H5g2cZ3E=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -36,7 +40,7 @@
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Fother.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>S6pmsKTQSXuZi+w6wXs2SdgyvaJmqKDxnMnKRUsnSUg=</DigestValue>
+<DigestValue>tOnuT/S9j8lwEZNJGrO0xgeM1EFl2OC85vj88EmJIeM=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftau.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -45,6 +49,10 @@
 <Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftau.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>j3Ytb0DRibcV+WKaRhzDWN2x9hAFFbx5RyFa+Pj5UJM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftimer.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mmq4Rol3PHTHWcwJ6W/WFm+vZNITTY0WpZq5rBbFAl8=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FActionbar%2Fb_more_option.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1154,6 +1162,10 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>+i5daekAbnIThj3rFOl0UxpMhcCvNBzIUCR5tkh0Flg=</DigestValue>
 </Reference>
+<Reference URI="timer.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MfTvOBH2LZNGSOXTivT5qbBsRS5nE8kbf5AVFdzl+yU=</DigestValue>
+</Reference>
 <Reference URI="#prop">
 <Transforms>
 <Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
@@ -1163,9 +1175,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Nl2878scQyvyap0GxGpiTpA9tAN9TNPAYfNbuetcfuyqzCGyGn3CWSNXpRsCRpPguUarFFpm4XKX
-xT0Ms1ClQ9FtArN5jn261/60Y38E585fp6hUUmpuoeXHFF6vYj6lQqRP+76mMUWuHhdZjgvD544M
-uSSQr+CAPrAKdegmD7Q=
+uG/1WTipvZzSSodYj+iHUW98PNUk1nb1EsgwTMA4SdC9OI+euBT9LRIeLIyLL5zpx6/a0OiwddHU
+jOPA9r7MRT1+Rf5/NQt2nGMpIWTlmA6jvWq4zCLjcOEeWQP7Z97JaDIhDBHZ72UxlxYL/HlbJzr1
+8hg+ASS5b7V9flQb80s=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

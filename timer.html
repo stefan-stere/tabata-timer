@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Tabata</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="main">			
+		<header class="ui-header">
+			<h2 class="ui-title">Workout</h2>
+		</header>
+		<div class="ui-content content-padding" >
+			<span id="timer">05:00</span>
+		</div>
+		<footer class="ui-footer ui-bottom-button">
+      		<a href="#" class="ui-btn">Pause</a>
+   		</footer>
+   		<script type="text/javascript">
+			console.log("here ->"+document.getElementById('wk-in').value);
+			startTimer(document.getElementById('wk-in').value,document.getElementById('pa-in').value,document.getElementById('cc-in').value, document.getElementById('timer'));
+		</script>
+	</div>
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>	
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>	
+</body>
+</html>

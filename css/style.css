@@ -35,3 +35,8 @@ input {
 	font-size:5em;
 	color:#fff;
 }
+
+.tr-border{
+	border: solid thin;
+	border-color: rgba(116, 196, 252, 1);
+}
