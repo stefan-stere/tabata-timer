@@ -40,3 +40,12 @@ input {
 	border: solid thin;
 	border-color: rgba(116, 196, 252, 1);
 }
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+

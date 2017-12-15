@@ -12,7 +12,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>rIHMMivPtE+aYy4ROYQwYgW9xbOUJO4ZvnwaSuktEgQ=</DigestValue>
+<DigestValue>9Sckmm9osFcRMwnSM10eF5H5ZIbZjQ1RR++8dcZMJXw=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,7 +20,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>LuhkL1fZCpVLuHtRVCTnpnAq6qHh9qHO0VqoZJF1KB0=</DigestValue>
+<DigestValue>a17EVSOTwNFHjJXGlnFva8p+Hzpz88YVCJd3ut5qhPM=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -52,7 +52,7 @@
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftimer.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>mmq4Rol3PHTHWcwJ6W/WFm+vZNITTY0WpZq5rBbFAl8=</DigestValue>
+<DigestValue>icm1CVLM1KbkGJfmaQaD1f49VpB0V0O1ebQ5zM6R65A=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FActionbar%2Fb_more_option.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1164,7 +1164,7 @@
 </Reference>
 <Reference URI="timer.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>MfTvOBH2LZNGSOXTivT5qbBsRS5nE8kbf5AVFdzl+yU=</DigestValue>
+<DigestValue>nHKwvV3A1dpESR1m2o20lZmuDA7w6eRqXiV3MmHE7t0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -1175,9 +1175,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-uG/1WTipvZzSSodYj+iHUW98PNUk1nb1EsgwTMA4SdC9OI+euBT9LRIeLIyLL5zpx6/a0OiwddHU
-jOPA9r7MRT1+Rf5/NQt2nGMpIWTlmA6jvWq4zCLjcOEeWQP7Z97JaDIhDBHZ72UxlxYL/HlbJzr1
-8hg+ASS5b7V9flQb80s=
+HJZUqVTWZXm0fJEt7UPWEtyJF9ALJ5Z2CBPUb+Olz0BlRXXi2O38GiztxUkkfuW7bWNejg/WdbDS
+m5+QUWXi2dbQ/n0zNQeIWAeWUskCaj7J8bKhNSCEjhWyHcMV41+PMQj2ElSdhUcrp3FyRZmk8Hiu
+vxfImszVGHdjHjQWEZo=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

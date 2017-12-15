@@ -16,7 +16,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>LuhkL1fZCpVLuHtRVCTnpnAq6qHh9qHO0VqoZJF1KB0=</DigestValue>
+<DigestValue>a17EVSOTwNFHjJXGlnFva8p+Hzpz88YVCJd3ut5qhPM=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -48,7 +48,7 @@
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftimer.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>mmq4Rol3PHTHWcwJ6W/WFm+vZNITTY0WpZq5rBbFAl8=</DigestValue>
+<DigestValue>icm1CVLM1KbkGJfmaQaD1f49VpB0V0O1ebQ5zM6R65A=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FActionbar%2Fb_more_option.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1160,7 +1160,7 @@
 </Reference>
 <Reference URI="timer.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>MfTvOBH2LZNGSOXTivT5qbBsRS5nE8kbf5AVFdzl+yU=</DigestValue>
+<DigestValue>nHKwvV3A1dpESR1m2o20lZmuDA7w6eRqXiV3MmHE7t0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -1171,9 +1171,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-JNTdbEvRg4hPetgbTuAeJYtYSCwOMCvu9YgOsynJzAK0n0ZEPbH+SsQjMTqDYx0Hdo1IIrydEyYJ
-wr14RpfzB2uKN4TJHHlAaw0lMcS3h3QP1qkF/oHLZPscm44oMti5bybkDMoqPsErPf9XrkLHw+ff
-VQUFdAuD0l62M/TC+GA=
+QF2j0gkUTAwIVhaa5HpSlpClVQ5p3zozxBLLTGb7Cq9bApuZ1ndhRTBx3l3V0NXL5PjxkDoHRRVM
+bo+Fnv7kpMRi898UzUd6cxEc2MQqq05P4GUPLOdGjrPkE7jrIfYw2arUIvYo6SW8Il/Pxh8y+AU3
+qzE9XMyfYylrnsbMLws=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

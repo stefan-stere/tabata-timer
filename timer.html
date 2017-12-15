@@ -12,13 +12,20 @@
 <body>
 	<div class="ui-page ui-page-active" id="main">			
 		<header class="ui-header">
-			<h2 class="ui-title">Workout</h2>
+			<h2 class="ui-title" id="wk-type">Workout</h2>
 		</header>
 		<div class="ui-content content-padding" >
-			<span id="timer">05:00</span>
+			<table style="width:200px; height:200px; text-align: center;margin:0 auto;">
+				<tr>
+					<td style="font-size:130px"><span id="wk-timer">0</span></td>
+				</tr>
+				<tr>
+					<td style="font-size:20px"><label>cycles:</label> <span id="cc-timer">0</span></td>				
+				</tr>
+			</table>
 		</div>
 		<footer class="ui-footer ui-bottom-button">
-      		<a href="#" class="ui-btn">Pause</a>
+      		<a href="#" class="ui-btn" id="pause-btn">Pause</a>
    		</footer>
    		<script type="text/javascript">
 			console.log("here ->"+document.getElementById('wk-in').value);
