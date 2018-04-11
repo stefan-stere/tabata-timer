@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/Tabata" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="ugvLenlmhJ.Tabata" package="ugvLenlmhJ" required_version="2.3.2"/>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" version="1.1.4" viewmodes="maximized">
+    <tizen:application id="dn0MZZoFG1.CATabata" package="dn0MZZoFG1" required_version="3.0"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal"/>
     <icon src="icon.png"/>
-    <name>Tabata</name>
+    <name>CATabata</name>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
     <tizen:profile name="wearable"/>
-    <tizen:setting hwkey-event="enable"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
 </widget>
