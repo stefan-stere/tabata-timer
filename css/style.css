@@ -16,19 +16,37 @@ input {
 	display: -webkit-flex;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	height:320px;
+	height:310px;
 }
 
 .content-padding {
-	margin-top: 16px;
-	margin-bottom: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 18px;
 }
 
 .content-padding table{
 	margin-left: 40px;
 }
+
+.content-padding-timer{
+	border-collapse: collapse;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#wk-timer{
+	font-size:123px;
+	border-collapse: collapse;
+	margin: 0px 0px 18px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#cc-timer{
+	font-size:20px;
+	border-collapse: collapse;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
 
 .content_text {
 	font-weight:bold;
